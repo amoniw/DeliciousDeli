@@ -1,43 +1,29 @@
 package com.pluralsight;
 
+import com.pluralsight.toppings.Topping;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Sandwich {
     private String breadOptions;
     private String sandwichSize;
-    private List<Topping>;
+    private List<Topping> toppings;
     private Boolean isToasted;
 
-    public String getBreadOptions() {
-        return breadOptions;
-    }
-
-    public void setBreadOptions(String breadOptions) {
+    public Sandwich(String breadOptions, String sandwichSize) {
         this.breadOptions = breadOptions;
-    }
-
-    public String getSandwichSize() {
-        return sandwichSize;
-    }
-
-    public void setSandwichSize(String sandwichSize) {
         this.sandwichSize = sandwichSize;
+        this.toppings = new ArrayList<>();
+        this.isToasted = false;
     }
 
-    public String getToppings() {
-        return toppings;
-    }
+    // add getters and setters
 
-    public void setToppings(String toppings) {
-        toppings = toppings;
-    }
+    // add a method add Topping to add it in the list toppings
 
-    public Boolean getToasted() {
-        return isToasted;
-    }
+    // calculate Price based on the toppings that you have
 
-    public void setToasted(Boolean toasted) {
-        isToasted = toasted;
-    }
+    // method to print the information of the sandwich
+
 }

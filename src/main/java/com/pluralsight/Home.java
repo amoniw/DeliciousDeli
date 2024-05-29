@@ -8,7 +8,7 @@ public class Home {
         int choice;
 
         do {
-            // display home screen
+            // Welcome to Delicious Deli
             System.out.println("Home Screen");
             System.out.println("1) New Order");
             System.out.println("0) Exit");
