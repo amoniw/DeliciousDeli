@@ -18,9 +18,42 @@ public class Sandwich {
         this.isToasted = false;
     }
 
-    // add getters and setters
+    public String getBreadOptions() {
+        return breadOptions;
+    }
 
-    // add a method add Topping to add it in the list toppings
+    public void setBreadOptions(String breadOptions) {
+        this.breadOptions = breadOptions;
+    }
+
+    public String getSandwichSize() {
+        return sandwichSize;
+    }
+
+    public void setSandwichSize(String sandwichSize) {
+        this.sandwichSize = sandwichSize;
+    }
+
+    public Boolean getToasted() {
+        return isToasted;
+    }
+
+    public void setToasted(Boolean toasted) {
+        isToasted = toasted;
+    }
+
+     public void Toppings(Topping topping) {
+        toppings.add(topping);
+        // add a method add Topping to add it in the list toppings
+    }
+
+    public void calculatePrice() {
+        double price = 0;
+        for (Topping topping : toppings) {
+            price += topping.getPrice();
+        }
+        price;
+    }
 
     // calculate Price based on the toppings that you have
 

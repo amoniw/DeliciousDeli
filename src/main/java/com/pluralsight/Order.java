@@ -15,15 +15,37 @@ public class Order {
         this.chips = new ArrayList<>();
     }
 
-    // add getters
+    public List<Sandwich> getSandwiches() {
+        return sandwiches;
+    }
 
-    // add a method addSandwich, a method addDrink, a method addChips
+
+    public List<Drink> getDrinks() {
+        return drinks;
+    }
 
 
-    // add a method calculatePrice
+    public List<Chips> getChips() {
+        return chips;
+    }
 
-    // add a methood checkOutOrder
-}
+    public void addSandwich(List<Sandwich>) {
+        sandwiches.add(Sandwich);
+
+    public void addDrink(List<Drink>) {
+                drinks.add(Drink);
+
+        public void addChips (List<Chips>) {
+                chips.add(chips);
+    }
+
+        // add a method addSandwich, a method addDrink, a method addChips
+
+        // add a method calculatePrice
+
+        // add a methood checkOutOrder
+    }
+
 
 
 

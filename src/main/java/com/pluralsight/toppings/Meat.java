@@ -7,8 +7,25 @@ public class Meat extends PremiumTopping {
 
     @Override
     public double getPrice(int sandwichSize) {
-        // here you should have a switch case to get the price of the meat based on the sandwich size
+        double price;
+        switch (sandwichSize) {
+            case 4:
+                price = 1.00;
+                break;
+
+            case 8:
+                price = 2.00;
+                break;
+
+            case 12:
+                price = 3.00;
+                break;
+        }
+
     }
 
-
 }
+// here you should have a switch case to get the price of the meat based on the sandwich size
+
+
+
