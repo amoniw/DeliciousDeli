@@ -7,7 +7,7 @@ public class Meat extends PremiumTopping {
 
     @Override
     public double getPrice(int sandwichSize) {
-        double price;
+        double price = 0;
         switch (sandwichSize) {
             case 4:
                 price = 1.00;
@@ -21,7 +21,7 @@ public class Meat extends PremiumTopping {
                 price = 3.00;
                 break;
         }
-
+        return price;
     }
 
 }

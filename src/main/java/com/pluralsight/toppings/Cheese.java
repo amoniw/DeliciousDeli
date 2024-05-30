@@ -16,13 +16,14 @@ public class Cheese extends PremiumTopping {
         switch (sandwichSize) {
             case 4:
                 cheesePrice = .75;
-                return cheesePrice;
+                break;
             case 8:
                 cheesePrice = 1.50;
-                return cheesePrice;
+                break;
             case 12:
               cheesePrice =  2.25;
-              return cheesePrice;
+              break;
         }
+        return cheesePrice;
     }
 }

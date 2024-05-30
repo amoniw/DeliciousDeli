@@ -4,32 +4,31 @@ import java.util.Scanner;
 
 public class Drink {
 
-    private int size;
+    private String size;
     private String flavor;
 
-    public Drink(int size, String flavor) {
+    public Drink(String size, String flavor) {
         this.size = size;
         this.flavor = flavor;
     }
 
 public double calculatePrice() {
-        Scanner scanner = new Scanner(System.in);
-        String drinksize = scanner.nextLine();
-
+double price  =0;
         // switch case to get the price of the drink based on size
-        switch (drinksize.toLowerCase()) {
+        switch (size.toLowerCase()) {
             case "small":
-                double price = 2.00;
+                 price = 2.00;
                 break;
 
             case "medium":
                 price = 2.50;
                 break;
 
-            case "large"
+            case "large":
                 price = 3.00;
                 break;
         }
+        return price;
     }
 }
 

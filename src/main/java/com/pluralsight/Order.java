@@ -29,17 +29,17 @@ public class Order {
         return chips;
     }
 
-    public void addSandwich(List<Sandwich>) {
-        sandwiches.add(Sandwich);
-
-    public void addDrink(List<Drink>) {
-                drinks.add(Drink);
-
-        public void addChips (List<Chips>) {
-                chips.add(chips);
+    public void addSandwich(Sandwich sandwich) {
+        sandwiches.add(sandwich);
+    }
+    public void addDrink(Drink drink) {
+        drinks.add(drink);
     }
 
-        // add a method addSandwich, a method addDrink, a method addChips
+        public void addChip(Chips chip) {
+                chips.add(chip);
+    }
+
 
         // add a method calculatePrice
 
