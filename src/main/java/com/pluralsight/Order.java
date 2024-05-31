@@ -41,6 +41,16 @@ public class Order {
     }
 
 
+        public double calculatePrice() {
+            double price = 1.50;
+
+            for (Chips chip : chips) {
+                price += chip.getPrice(chips chip);
+            }
+            return 0;
+        }
+
+
         // add a method calculatePrice
 
         // add a methood checkOutOrder

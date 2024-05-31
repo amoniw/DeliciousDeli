@@ -5,9 +5,9 @@ Class Diagram
 User Stories
 List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
 
-As a user, I want to be able to process data information, so that the application can process run accordingly.
-As a user, I want to be able to show how to run successful applications and transaction through Intelli J.
-As a user,I want to be able to process my coding more clean , so my code can run with no errors.
+As a user, I want to be able to process user information to create a sandwich through my Delicious Deli , so that  the user can make their own Sandwich .
+As a user, I want to filter the list of products and item toppings and drinks and chips by category, price range & other attributes, so that customer's can choose what they want.
+As a user,I want to run a successful Delicious Deli so that my information and my order is processed accordingly to customer expectation .
 Setup
 Instructions on how to set up and run the project using IntelliJ IDEA.
 
