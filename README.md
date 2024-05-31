@@ -1,5 +1,4 @@
-This Java console application shows a Sandwich Deli  . The purpose of this is to show a overview on how to run a transaction and process them through Intelli J. The functionality that it shows is the process on how to add payments and make payments add dates. The problems that it aims to solve is to show a succesful running program through the Financial Tracker
-
+This Java console application shows a Delicious Deli . The purpose of this application is to show a overview on how to run a order transaction and process it through Intelli J. The functionality that it shows is that . It will prompt the user to create their own sandwich, and customize to their liking,by adding extra toppings and extra meat, if they would like.
 Class Diagram
 
 User Stories
